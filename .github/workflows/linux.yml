@@ -27,3 +27,7 @@ jobs:
       run: nodejs_bin/copysysbin.sh
     - name: Compile
       run: nodejs_bin/node Kinc/make.js --compiler clang --compile
+    - uses: actions/upload-artifact@master
+      with:
+        name: linux-build
+        path: build/build/Release/Krom.app
