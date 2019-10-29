@@ -23,8 +23,8 @@ jobs:
       run: nodejs_bin/copysysbin.sh
     - name: Compile
       run: nodejs_bin/node Kinc/make.js --noshaders --compile
-          mkdir app
-          mv Krom.app app
+          mkdir build/build/Release/app
+          mv build/build/Release/Krom.app build/build/Release/app
     - uses: actions/upload-artifact@master
       with:
         name: macos-build
