@@ -30,4 +30,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: linux-build
-        path: build/build/Release/Krom.app
+        path: build/build/Release/Krom
