@@ -12,7 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
     - name: Apt Update
@@ -30,4 +30,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: linux-build
-        path: build/build/Release/Krom
+        path: build/Release/Krom
