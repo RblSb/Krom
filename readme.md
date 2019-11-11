@@ -9,7 +9,7 @@ Note that Krom does not rely on web APIs. It rather exposes full, native hardwar
 ## Build instructions
 
 * For Windows: Run node Kinc/make and compile in Visual Studio for x64
-* For macOS: Run node Kinc/make --noshaders and compile in Xcode
+* For macOS: Run node Kinc/make and compile in Xcode
 * For Linux: Run node Kinc/make --compiler clang --compile
 
 ## Running
